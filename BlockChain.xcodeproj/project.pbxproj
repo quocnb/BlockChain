@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79BEF91E20074528006AF30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF91D20074528006AF30B /* AppDelegate.swift */; };
+		79BEF92020074528006AF30B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF91F20074528006AF30B /* ViewController.swift */; };
+		79BEF92320074528006AF30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BEF92120074528006AF30B /* Main.storyboard */; };
+		79BEF92520074528006AF30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BEF92420074528006AF30B /* Assets.xcassets */; };
+		79BEF92820074528006AF30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BEF92620074528006AF30B /* LaunchScreen.storyboard */; };
+		79BEF9302007454A006AF30B /* BlockChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF92F2007454A006AF30B /* BlockChain.swift */; };
+		79BEF93520074701006AF30B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF93420074701006AF30B /* Block.swift */; };
+		79BEF9372007470B006AF30B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF9362007470B006AF30B /* Transaction.swift */; };
+		79BEF93F20074E5B006AF30B /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF93E20074E5B006AF30B /* DataExtension.swift */; };
+		79BEF9442008351D006AF30B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF9432008351D006AF30B /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79BEF91A20074528006AF30B /* BlockChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BEF91D20074528006AF30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79BEF91F20074528006AF30B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79BEF92220074528006AF30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79BEF92420074528006AF30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79BEF92720074528006AF30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79BEF92920074528006AF30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BEF92F2007454A006AF30B /* BlockChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChain.swift; sourceTree = "<group>"; };
+		79BEF93420074701006AF30B /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		79BEF9362007470B006AF30B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		79BEF93A20074E13006AF30B /* BlockChain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockChain-Bridging-Header.h"; sourceTree = "<group>"; };
+		79BEF93E20074E5B006AF30B /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		79BEF9432008351D006AF30B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BEF91720074528006AF30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79BEF91120074528006AF30B = {
+			isa = PBXGroup;
+			children = (
+				79BEF91C20074528006AF30B /* BlockChain */,
+				79BEF91B20074528006AF30B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79BEF91B20074528006AF30B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BEF91A20074528006AF30B /* BlockChain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BEF91C20074528006AF30B /* BlockChain */ = {
+			isa = PBXGroup;
+			children = (
+				79BEF940200750CC006AF30B /* Utilities */,
+				79BEF93120074556006AF30B /* Model */,
+				79BEF91D20074528006AF30B /* AppDelegate.swift */,
+				79BEF91F20074528006AF30B /* ViewController.swift */,
+				79BEF92120074528006AF30B /* Main.storyboard */,
+				79BEF92420074528006AF30B /* Assets.xcassets */,
+				79BEF92620074528006AF30B /* LaunchScreen.storyboard */,
+				79BEF92920074528006AF30B /* Info.plist */,
+				79BEF93A20074E13006AF30B /* BlockChain-Bridging-Header.h */,
+			);
+			path = BlockChain;
+			sourceTree = "<group>";
+		};
+		79BEF93120074556006AF30B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79BEF92F2007454A006AF30B /* BlockChain.swift */,
+				79BEF93420074701006AF30B /* Block.swift */,
+				79BEF9362007470B006AF30B /* Transaction.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79BEF940200750CC006AF30B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				79BEF93E20074E5B006AF30B /* DataExtension.swift */,
+				79BEF9432008351D006AF30B /* StringExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79BEF91920074528006AF30B /* BlockChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BEF92C20074528006AF30B /* Build configuration list for PBXNativeTarget "BlockChain" */;
+			buildPhases = (
+				79BEF91620074528006AF30B /* Sources */,
+				79BEF91720074528006AF30B /* Frameworks */,
+				79BEF91820074528006AF30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockChain;
+			productName = BlockChain;
+			productReference = 79BEF91A20074528006AF30B /* BlockChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79BEF91220074528006AF30B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Quoc Nguyen";
+				TargetAttributes = {
+					79BEF91920074528006AF30B = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79BEF91520074528006AF30B /* Build configuration list for PBXProject "BlockChain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79BEF91120074528006AF30B;
+			productRefGroup = 79BEF91B20074528006AF30B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79BEF91920074528006AF30B /* BlockChain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79BEF91820074528006AF30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BEF92820074528006AF30B /* LaunchScreen.storyboard in Resources */,
+				79BEF92520074528006AF30B /* Assets.xcassets in Resources */,
+				79BEF92320074528006AF30B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BEF91620074528006AF30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BEF92020074528006AF30B /* ViewController.swift in Sources */,
+				79BEF9372007470B006AF30B /* Transaction.swift in Sources */,
+				79BEF93520074701006AF30B /* Block.swift in Sources */,
+				79BEF91E20074528006AF30B /* AppDelegate.swift in Sources */,
+				79BEF9442008351D006AF30B /* StringExtension.swift in Sources */,
+				79BEF93F20074E5B006AF30B /* DataExtension.swift in Sources */,
+				79BEF9302007454A006AF30B /* BlockChain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79BEF92120074528006AF30B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BEF92220074528006AF30B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79BEF92620074528006AF30B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BEF92720074528006AF30B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79BEF92A20074528006AF30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79BEF92B20074528006AF30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79BEF92D20074528006AF30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlockChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quocnb.BlockChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockChain/BlockChain-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79BEF92E20074528006AF30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlockChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quocnb.BlockChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlockChain/BlockChain-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79BEF91520074528006AF30B /* Build configuration list for PBXProject "BlockChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BEF92A20074528006AF30B /* Debug */,
+				79BEF92B20074528006AF30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BEF92C20074528006AF30B /* Build configuration list for PBXNativeTarget "BlockChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BEF92D20074528006AF30B /* Debug */,
+				79BEF92E20074528006AF30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79BEF91220074528006AF30B /* Project object */;
+}
