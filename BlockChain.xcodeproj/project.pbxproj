@@ -15,8 +15,7 @@
 		79BEF9302007454A006AF30B /* BlockChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF92F2007454A006AF30B /* BlockChain.swift */; };
 		79BEF93520074701006AF30B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF93420074701006AF30B /* Block.swift */; };
 		79BEF9372007470B006AF30B /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF9362007470B006AF30B /* Transaction.swift */; };
-		79BEF93F20074E5B006AF30B /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF93E20074E5B006AF30B /* DataExtension.swift */; };
-		79BEF9442008351D006AF30B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF9432008351D006AF30B /* StringExtension.swift */; };
+		79BEF94620084B2F006AF30B /* BlockChainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEF94520084B2F006AF30B /* BlockChainHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +30,7 @@
 		79BEF93420074701006AF30B /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		79BEF9362007470B006AF30B /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		79BEF93A20074E13006AF30B /* BlockChain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockChain-Bridging-Header.h"; sourceTree = "<group>"; };
-		79BEF93E20074E5B006AF30B /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
-		79BEF9432008351D006AF30B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		79BEF94520084B2F006AF30B /* BlockChainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChainHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +89,7 @@
 		79BEF940200750CC006AF30B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				79BEF93E20074E5B006AF30B /* DataExtension.swift */,
-				79BEF9432008351D006AF30B /* StringExtension.swift */,
+				79BEF94520084B2F006AF30B /* BlockChainHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -174,9 +171,8 @@
 				79BEF9372007470B006AF30B /* Transaction.swift in Sources */,
 				79BEF93520074701006AF30B /* Block.swift in Sources */,
 				79BEF91E20074528006AF30B /* AppDelegate.swift in Sources */,
-				79BEF9442008351D006AF30B /* StringExtension.swift in Sources */,
-				79BEF93F20074E5B006AF30B /* DataExtension.swift in Sources */,
 				79BEF9302007454A006AF30B /* BlockChain.swift in Sources */,
+				79BEF94620084B2F006AF30B /* BlockChainHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
